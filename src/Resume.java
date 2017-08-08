@@ -1,5 +1,5 @@
 /**
- * com.urise.webapp.model.Resume class
+ * webapp.model.Resume class
  */
 public class Resume {
 

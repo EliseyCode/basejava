@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Test for com.urise.webapp.storage.ArrayStorage
+ * Test for webapp.storage.ArrayStorage
  */
 public class MainArray {
     private final static ArrayStorage ARRAY_STORAGE = new ArrayStorage();
@@ -55,7 +55,7 @@ public class MainArray {
         }
     }
 
-    static void printAll() {
+   private static void printAll() {
         Resume[] all = ARRAY_STORAGE.getAll();
         System.out.println("----------------------------");
         if (all.length == 0) {
